@@ -2,6 +2,11 @@
 
 This page contains information about changes to the PowerBI Visual Tools (pbiviz).
 
+## 7.0.2
+* Changed source map generation to `eval-source-map`.
+* Fixed load source map error.
+* Updated packages.
+
 ## 7.0.1
 * Fixed issue with missing `lib/*` files in latest versions.
 * Updated packages
