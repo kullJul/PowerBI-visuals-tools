@@ -43,7 +43,7 @@ export default class CommandManager {
     public static async start(options: StartOptions, rootPath: string) {
         const webpackOptions: WebpackOptions = {
             devMode: true,
-            devtool: "inline-source-map",
+            devtool: "eval-source-map",
             generateResources: true,
             generatePbiviz: false,
             minifyJS: false,
